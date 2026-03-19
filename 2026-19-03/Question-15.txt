@@ -1,0 +1,10 @@
+#by using attribute
+driver.find_element(By.XPATH,"//tag[@attribute='value']")
+#by using text
+driver.find_element(By.XPATH,"//tag[text()='value']")
+#by using group indexing
+driver.find_element(By.XPATH,"(//tag[@attribute='value'])[1]")
+#by using contains
+driver.find_element(By.XPATH,"//tag[contains(@attribute,'value')]")
+
+

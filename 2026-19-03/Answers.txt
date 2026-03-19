@@ -1,0 +1,8 @@
+1. Which locator is generally the fastest in Selenium?
+Answer:- Id
+
+2. Which wait is recommended for handling dynamic elements in Selenium?
+Answer:- Explicit Wait (WebDriverWait)
+
+3. Which Selenium class is used to handle dropdown listboxes?
+Answer:- Select
